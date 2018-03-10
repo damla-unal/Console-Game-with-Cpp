@@ -1,6 +1,6 @@
 #include "dusman.h"
 
-Dusman::Dusman()//buraya ypamadým çünkü atamý yeni yapýyorum sonra kendimi çizicem.hesaplama sonucu çizicem.
+Dusman::Dusman()
 {
     setX(79);
     setY(rand()%14+1);
