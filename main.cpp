@@ -83,7 +83,6 @@ int main()
             }
         }
 
-        //bize düşman lazım
 
         if(frame%hainZamani==0)
         {
