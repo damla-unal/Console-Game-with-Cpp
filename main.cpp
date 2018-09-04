@@ -46,7 +46,7 @@ int main()
     vector<Dusman *>::iterator kostok;
     vector<Ates *>Atesler;
     vector<Ates *>::iterator mermi;
-    while(tus!=27)//esc ye basmadýðým sürece
+    while(tus!=27)
     {
         if(kbhit())
         {
@@ -78,7 +78,7 @@ int main()
             else if (tus==32)
             {
                 Ates *disu=new Ates(Tarkan->getX()+3,Tarkan->getY()+1);
-                Atesler.push_back(disu);//vector e eleman ekleme
+                Atesler.push_back(disu);
 
             }
         }
@@ -91,7 +91,7 @@ int main()
             ahtapot = new Dusman;
             Hainler.push_back(ahtapot);
         }
-        //engel yoksa ve zamaný geldiyse enfel oluþtur.
+      
         if(hoca==NULL && frame%engelZamani==0)
         {
             hoca=new Engel;
@@ -220,7 +220,7 @@ int main()
             }
         }
         }
-        //ölelim mi
+       
             //engele çartıysa öl
         if(hoca!=NULL && Tarkan->getX()+3>=hoca->getX()&&
            Tarkan->getX()<=hoca->getX()+3&&
